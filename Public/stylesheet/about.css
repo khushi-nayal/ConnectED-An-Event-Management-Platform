@@ -1,0 +1,212 @@
+body {
+  font-family: "Roboto";
+  background: #000000;
+}
+
+.box-form .header img{
+	position: absolute;
+	width: 124px;
+	height: 124px;
+	left: 50px;
+	top: 23px;
+}
+
+.box-form .header h1{
+	position: absolute;
+	width: 362px;
+	height: 57px;
+	left: 200px;
+	top: -20px;
+
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 117px;
+	letter-spacing: -0.02em;
+
+	color: #EAEAEA;
+}
+
+.box-form .home{
+	position: absolute;
+width: 79px;
+height: 35px;
+left: 763px;
+top: 89px;
+cursor: pointer;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.02em;
+background-color: #000000;
+padding: 0;
+border: none;
+background: none;
+color: #FAFAFA;
+}
+
+.box-form .home:hover{
+	color: blue;
+}
+
+.box-form .approval{
+	position: absolute;
+width: 109px;
+height: 35px;
+left: 853px;
+top: 89px;
+padding: 0;
+border: none;
+background: none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.02em;
+background-color: #000000;
+cursor: pointer;
+
+color: #FAFAFA;
+}
+
+.box-form .approval:hover{
+	color: blue;
+}
+
+.box-form .calender{
+	position: absolute;
+width: 110px;
+height: 35px;
+left: 967px;
+top: 89px;
+padding: 0;
+border: none;
+background: none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.02em;
+background-color: #000000;
+cursor: pointer;
+
+color: #FAFAFA;
+}
+
+.box-form .calender:hover{
+	color: blue;
+}
+
+.box-form .events{
+	position: absolute;
+width: 86px;
+height: 35px;
+left: 1075px;
+top: 89px;
+padding: 0;
+border: none;
+background: none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.02em;
+background-color: #000000;
+cursor: pointer;
+
+color: #FAFAFA;
+}
+
+.box-form .events:hover{
+	color: blue;
+}
+
+.box-form .about{
+	position: absolute;
+width: 78px;
+height: 35px;
+left: 1163px;
+top: 89px;
+padding: 0;
+border: none;
+background: none;
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.02em;
+background-color: #000000;
+
+color: #FAFAFA;
+}
+
+.box-form .about:hover{
+	color: blue;
+}
+.box-form .logout{
+	position: absolute;
+width: 78px;
+height: 35px;
+left: 1252px;
+top: 89px;
+padding: 0;
+border: none;
+background: none;
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.02em;
+background-color: #000000;
+
+color: #FAFAFA;
+}
+
+.box-form .logout:hover{
+	color: blue;
+}
+
+.box-form .hello {
+	position: absolute;
+width: 479px;
+height: 52px;
+left: 116px;
+top: 178px;
+white-space: nowrap;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 52px;
+letter-spacing: -0.02em;
+
+color: #FAFAFA;
+}
+
+.box-form .About{
+	position: absolute;
+width: 479px;
+height: 52px;
+left: 116px;
+top: 318px;
+white-space: nowrap;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 32px;
+letter-spacing: -0.02em;
+
+color: #FAFAFA;
+}
