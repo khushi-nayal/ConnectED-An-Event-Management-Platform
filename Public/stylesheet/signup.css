@@ -1,0 +1,195 @@
+body {
+	font-family: "Roboto";
+	background: #000000;
+  }
+  
+  .box-form .header img{
+	  position: absolute;
+	  width: 124px;
+	  height: 124px;
+	  left: 50px;
+	  top: 23px;
+  }
+  
+  .box-form .header h1{
+	  position: absolute;
+	  width: 362px;
+	  height: 57px;
+	  left: 200px;
+	  top: -20px;
+  
+	  font-family: 'Roboto', sans-serif;
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 70px;
+	  line-height: 117px;
+	  letter-spacing: -0.02em;
+  
+	  color: #EAEAEA;
+  }
+  
+  .box-form .left img{
+	  position: absolute;
+	  width: 450.5px;
+	  height: 400px;
+	  left: 162px;
+	  top: 150px;
+  }
+  
+  .box-form .left p{
+	  position: absolute;
+	  width: 365px;
+	  height: 118px;
+	  left: 220px;
+	  top: 550px;
+  
+	  font-family: 'Roboto', sans-serif;
+	  font-style: normal;
+	  font-weight: 500;
+	  font-size: 30px;
+	  line-height: 30px;
+	  text-align: center;
+	  letter-spacing: 0.02em;
+  
+	  color: #EAEAEA;
+  }
+  
+  .box-form .right h5{
+	  position: absolute;
+  width: 113px;
+  height: 53px;
+  left: 1093px;
+  top: 50px;
+	  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 53px;
+  
+  color: #FAFAFA;
+  }
+  
+  #name{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 989px;
+  top: 191px;
+  display: block;
+  
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  #email{
+	position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 989px;
+  top: 241px;
+  display: block;
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  #phone{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 989px;
+  top: 291px;
+  display: block;
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  #department{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 989px;
+  top: 341px;
+  display: block;
+  
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  #occupation{
+  position: absolute;
+  width: 335px;
+  height: 40px;
+  left: 989px;
+  top: 395px;
+  display: block;
+  
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  #password{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 989px;
+  top: 441px;
+  display: block;
+  
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  #cpassword{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 989px;
+  top: 491px;
+  display: block;
+  
+  background: #FFF9F9;
+  border-radius: 10px;
+  }
+  
+  .box-form .right button{
+	  position: absolute;
+  width: 206px;
+  height: 40px;
+  left: 1060px;
+  top: 568px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #187B17;
+  color: #E5E5E5;
+  }
+  
+  .box-form .right p{
+	  position: absolute;
+  width: 418px;
+  height: 35px;
+  left: 985px;
+  top: 634px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .vertical {
+  position: absolute;
+  width: 48px;
+  height: 35px;
+  left: 985px;
+  top: 570px;
+  }
+  .box-form .right a{
+	text-decoration: none;
+}

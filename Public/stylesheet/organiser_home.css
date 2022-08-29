@@ -1,0 +1,331 @@
+body {
+	font-family: "Roboto";
+	background: #000000;
+  }
+  
+  .box-form .header img{
+	  position: absolute;
+	  width: 124px;
+	  height: 124px;
+	  left: 50px;
+	  top: 23px;
+  }
+  
+  .box-form .header h1{
+	  position: absolute;
+	  width: 362px;
+	  height: 57px;
+	  left: 200px;
+	  top: -20px;
+  
+	  font-family: 'Roboto', sans-serif;
+	  font-style: normal;
+	  font-weight: 700;
+	  font-size: 70px;
+	  line-height: 117px;
+	  letter-spacing: -0.02em;
+  
+	  color: #EAEAEA;
+  }
+  
+  .box-form .home{
+	  position: absolute;
+  width: 79px;
+  height: 35px;
+  left: 763px;
+  top: 89px;
+  cursor: pointer;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  background-color: #000000;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #FAFAFA;
+  }
+  
+  .box-form .home:hover{
+	  color: blue;
+  }
+  
+  .box-form .approval{
+	  position: absolute;
+  width: 109px;
+  height: 35px;
+  left: 853px;
+  top: 89px;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  background-color: #000000;
+  cursor: pointer;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .approval:hover{
+	  color: blue;
+  }
+  
+  .box-form .calender{
+	  position: absolute;
+  width: 110px;
+  height: 35px;
+  left: 967px;
+  top: 89px;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  background-color: #000000;
+  cursor: pointer;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .calender:hover{
+	  color: blue;
+  }
+  
+  .box-form .events{
+	  position: absolute;
+  width: 86px;
+  height: 35px;
+  left: 1075px;
+  top: 89px;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  background-color: #000000;
+  cursor: pointer;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .events:hover{
+	  color: blue;
+  }
+  
+  .box-form .about{
+	  position: absolute;
+  width: 78px;
+  height: 35px;
+  left: 1163px;
+  top: 89px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  background-color: #000000;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .about:hover{
+	  color: blue;
+  }
+  .box-form .logout{
+	  position: absolute;
+  width: 78px;
+  height: 35px;
+  left: 1252px;
+  top: 89px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  background-color: #000000;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .logout:hover{
+	  color: blue;
+  }
+  
+  .box-form .hello {
+	  position: absolute;
+  width: 479px;
+  height: 52px;
+  left: 116px;
+  top: 178px;
+  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  
+  color: #FAFAFA;
+  }
+  
+  #Newreq{
+	  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 135px;
+  top: 300px;
+  text-align: center;
+  background-color: #000000;
+  cursor: pointer;
+  border-color: #FAFAFA;
+  
+  }
+  #Newreq:hover{
+	opacity: 0.75;
+  }
+  #Trackpend{
+	  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 439px;
+  top: 300px;
+  align-items : center;
+  background-color: #000000;
+  cursor: pointer;
+  border-color: #FAFAFA;
+  
+  }
+  #Trackpend:hover{
+	opacity: 0.75;
+  }
+  
+  #Upcomingeve{
+	  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 753px;
+  top: 300px;
+  align-items : center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #000000;
+  cursor: pointer;
+  border-color: #FAFAFA;
+  
+  }
+  #Upcomingeve:hover{
+	opacity: 0.75;
+  }
+  
+  #Announcements{
+	  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 1067px;
+  top: 300px;
+  align-items : center;
+  cursor: pointer;
+  background-color: #000000;
+  border-color: #FAFAFA;
+  }
+  
+  #Announcements:hover{
+	opacity: 0.75;
+  }
+  
+  .box-form .Newrequest{
+	  position: absolute;
+  width: 217px;
+  height: 47px;
+  left: 180px;
+  top: 556px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 47px;
+  letter-spacing: -0.02em;
+  
+  color: #FAFAFA;
+  
+  }
+  
+  .box-form .Trackpending{
+	  position: absolute;
+  width: 275px;
+  height: 94px;
+  left: 425px;
+  top: 566px;
+  
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .Upcomingevent{
+	  position: absolute;
+  width: 238px;
+  height: 94px;
+  left: 760px;
+  top: 570px;
+  
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  
+  color: #FAFAFA;
+  }
+  
+  .box-form .Announce{
+	  position: absolute;
+  width: 284px;
+  height: 47px;
+  left: 1058px;
+  top: 570px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  
+  color: #FAFAFA;
+  }

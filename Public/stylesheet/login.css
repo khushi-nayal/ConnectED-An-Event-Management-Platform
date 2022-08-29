@@ -1,0 +1,152 @@
+body {
+  font-family: "Roboto";
+  background: #000000;
+}
+
+.box-form .header img{
+	position: absolute;
+	width: 124px;
+	height: 124px;
+	left: 50px;
+	top: 23px;
+}
+
+.box-form .header h1{
+	position: absolute;
+	width: 362px;
+	height: 57px;
+	left: 200px;
+	top: -20px;
+
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 117px;
+	letter-spacing: -0.02em;
+
+	color: #EAEAEA;
+}
+
+.box-form .left img{
+	position: absolute;
+	width: 600.5px;
+	height: 400px;
+	left: 92px;
+	top: 150px;
+}
+
+.box-form .left p{
+	position: absolute;
+	width: 365px;
+	height: 118px;
+	left: 220px;
+	top: 550px;
+
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	color: #EAEAEA;
+}
+
+.box-form .right h5{
+	position: absolute;
+width: 113px;
+height: 53px;
+left: 1103px;
+top: 124px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 53px;
+
+color: #FAFAFA;
+}
+
+#emailid{
+  position: absolute;
+width: 329px;
+height: 40px;
+left: 989px;
+top: 291px;
+
+background: #FFF9F9;
+border-radius: 10px;
+}
+
+#password{
+position: absolute;
+width: 329px;
+height: 40px;
+left: 989px;
+top: 351px;
+
+background: #FFF9F9;
+border-radius: 10px;
+}
+
+#fp	{
+	position: absolute;
+width: 130px;
+height: 39px;
+left: 1210px;
+top: 390px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 20px;
+text-decoration-line: underline;
+
+color: #EAEAEA;
+}
+
+.box-form .right button{
+	position: absolute;
+width: 206px;
+height: 40px;
+left: 1060px;
+top: 458px;
+border-radius: 10px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+background-color: #187B17;
+color: #E5E5E5;
+}
+
+.box-form .right p{
+	position: absolute;
+width: 418px;
+height: 35px;
+left: 985px;
+top: 570px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 35px;
+
+color: #FAFAFA;
+}
+
+.box-form .vertical {
+position: absolute;
+width: 48px;
+height: 35px;
+left: 985px;
+top: 570px;
+}
+.box-form .right a{
+	text-decoration: none;
+}
