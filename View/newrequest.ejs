@@ -1,0 +1,70 @@
+  <%- include('partials/header'); -%>
+	<link rel="stylesheet" href="/stylesheet/newrequest.css" />
+  <%- include('partials/middle'); -%>
+
+<div class="box-form">
+	<div class="header">
+  		<img src="images/Group5.png" alt="logo" />
+  		<h1>CONNECTED</h1>
+  	</div>
+  	<div class="newreq">New Request</div>
+    <img src="images/Vector.png" id="image" />
+  	<button class="home">Home</button>
+  	<button class="approval">Approvals</button>
+  	<button class="calender">Calender</button>
+  	<button class="events">Events</button>
+  	<button class="about">About</button>
+  	<button class="logout">Logout</button>
+
+    <form action="/newrequest" method="POST">
+    <div class="organizer">Organizer Email-Id</div>
+    <input type="text" id="org" name="org" required>
+      <br>
+     
+    <div class="eventname">Event Name </div>
+    <input type="text" id="eventname" name="eventname" required>
+      <br>
+    <div class="eventdate">Event Date </div>
+    <input type="date" id="eventdate" name="eventdate" required>
+      <br>
+    <div class="venue">Venue </div>
+    <select required id="ven" name="venue">
+            <option value="" disabled selected hidden>Venue</option>
+            <option>D block</option>
+            <option>SARC</option>
+            <option>CD Atrium</option>
+            <option>B315</option>
+            <option>D217</option>
+            <option>Central Vista</option>
+        </select>
+      <br>
+    <div class="time">Timings </div>
+    <input type="time" min="09:00" max="22:00" required id="stiming" name="stiming">
+    <p class="to">to</p>
+    <input type="time" min="09:00" max="22:00" required id="etiming" name="etiming">
+      <br>
+    <div class="entryfee">Entry Fee </div>
+    <input type="number" id="fee" name="fee" required>
+      <br>
+    <div class="budgetreq">Budget Request </div>
+    <input type="number" id="request" name="request" required>
+      <br>
+    <div class="budgetjust">Budget Justification </div>
+    <input type="text" id="justification" name="justification" required>
+      <br>
+    <div class="desc">Description </div>
+    <input type="text" id="description" name="description" required>
+      <br>
+    <div class="material">Material Required</div>
+    <input type="text" id="matreq" name="matreq" required>
+      <br>
+
+      <br><br>
+      <button type="Submit" class="submit_button">Submit Request</button>
+      <br><br><br><br>
+      <div id="end"></div>
+</div>
+
+
+</body>
+</html>

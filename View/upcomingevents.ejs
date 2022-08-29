@@ -1,0 +1,50 @@
+<%- include('partials/header'); -%>
+<link rel="stylesheet" href="/stylesheet/forgot_styles.css" />
+<%- include('partials/middle'); -%>
+<h1>Upcoming Events</h1>
+
+</br>
+<% let message="";
+if(datatable.length==0)
+{
+  message="No upcoming events"; %>
+<h2 style="text-align: center;"><%= message %></h2>
+<% }
+else
+{
+  %>
+<table  class="table table-striped">
+    <thead>
+          <td>Event Name</td>
+          <td> Venue </td>
+          <td> Date</td>
+          <td> Start Time</td>
+          <td> End Time</td>
+          <td></td>
+      </thead>
+      <tbody>
+        <% for(var i=0; i < datatable.length; i++) { %>
+          <tr>
+            
+                <td><p class="text"><%= datatable[i].Event_Name %></p></td>
+                <td><p class="text"><%= datatable[i].Venue %></p></td>
+                <td><p class="text"><%= datatable[i].Event_Date %></p></td>
+                <td><p class="text"><%= datatable[i].Start_Time %></p></td>
+                <td><p class="text"><%= datatable[i].End_Time %></p></td>
+                <td>
+             <form class="adoption_form" action="/rsvprequest" method="POST">
+                <div class="adoptdiv">
+                    <div>
+                        <input type="hidden" name="Event_Id" class="form-control" id="Event_Id" aria-describedby="emailHelp" value=<%= datatable[i].Event_Id %>>
+                      </div>
+                <button type="submit" class="btn btn-primary adoptbtn" id="rsvp_button">RSVP</button>
+              </div>
+              </form> 
+          </td>
+          <% } %>
+          </tr>
+      </tbody>
+  </table>
+  <% } %>
+    
+    <%- include('partials/footer'); -%>

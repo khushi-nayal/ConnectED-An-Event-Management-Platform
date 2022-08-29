@@ -1,0 +1,58 @@
+<%- include('partials/header'); -%>
+	<link rel="stylesheet" href="/stylesheet/viewrequest.css" />
+  <%- include('partials/middle'); -%>
+<div class="box-form">
+	<div class="header">
+  		<img src="images/Group5.png" alt="logo" />
+  		<h1>CONNECTED</h1>
+  	</div>
+  	<div class="newreq">View Request</div>
+    <img src="images/Vector.png" id="image" />
+  	<button class="home">Home</button>
+  	<button class="approval">Approvals</button>
+  	<button class="calender">Calender</button>
+  	<button class="events">Events</button>
+  	<button class="about">About</button>
+  	<button class="logout">Logout</button>
+
+    <div class="organizer">Organizer </div>
+    <div id="org" name="org"><%= datatable[0].Organizer %></div>
+      <br>
+    <div class="eventname">Event Name </div>
+    <div id="evename" name="evename"><%= datatable[0].Event_Name %></div>
+      <br>
+    <div class="eventdate">Event Date </div>
+    <div id="evedate" name="evedate"><%= datatable[0].Event_Date %></div>
+      <br>
+    <div class="venue">Venue </div>
+    <div id="ven" name="ven"><%= datatable[0].Venue %></div>
+      <br>
+    <div class="time">Timings </div>
+    <div id="timing" name="timing"><%= datatable[0].Start_Time%> to <%= datatable[0].End_Time %></div>
+      <br>
+    <div class="entryfee">Entry Fee </div>
+    <div id="fee" name="fee"><%= datatable[0].Entry_Fee %></div>
+      <br>
+    <div class="budgetreq">Budget Request </div>
+    <div id="request" name="request"><%= datatable[0].Budget_Request %></div>
+      <br>
+    <div class="budgetjust">Budget Justification </div>
+    <div id="justification" name="justification"><%= datatable[0].Budget_Justification %></div>
+      <br>
+    <div class="desc">Description </div>
+    <div id="description" name="description"><%= datatable[0].Description %></div>
+      <br>
+    <div class="material">Material Required</div>
+    <div id="matreq" name="matreq"><%= datatable[0].Material_Requirement %></div>
+  
+      <br>
+
+      <br><br>
+  
+      <br><br><br><br>
+      <div id="end"></div>
+</div>
+
+
+</body>
+</html>

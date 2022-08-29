@@ -1,0 +1,41 @@
+<%- include('partials/header'); -%>
+<link rel="stylesheet" href="/stylesheet/forgot_styles.css" />
+<%- include('partials/middle'); -%>
+<h1>Requests Status</h1>
+</br>
+<% let message="";
+if(datatable.length==0)
+{
+  message="No requests"; %>
+<h2 style="text-align: center;"><%= message %></h2>
+<% }
+else
+{
+  %>
+<table  class="table table-striped">
+    <thead>
+          <td>Event Name</td>
+          <td>Event Details</td>
+          <td> Status </td>
+      </thead>
+      <tbody>
+        
+        <% for(var i=0; i < datatable.length; i++) { %>
+        
+        
+          <tr>
+            <td><p class="text"><%= datatable[i].Event_Name %></p></td>
+            
+                <td><p class="text"><%= datatable[i].Status %></p></td>
+            <td>
+                <form class="adoption_form" action="/viewrequest" method="POST">
+                    <input id="id" name="Event_Id" type="hidden"  class="form-control" value=<%= datatable[i].Event_Id %>>
+                    <button type="submit" class="btn">Event Details</button>  
+                 </form>
+                </td>
+          <% } %>
+          </tr>
+      </tbody>
+  </table>
+  <% } %>
+  <%- include('partials/footer'); -%>

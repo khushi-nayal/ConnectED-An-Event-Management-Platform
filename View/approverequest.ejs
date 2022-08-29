@@ -1,0 +1,78 @@
+
+<%- include('partials/header'); -%>
+<link rel="stylesheet" href="/stylesheet/forgot_styles.css" />
+<%- include('partials/middle'); -%>
+<h1>Requests</h1>
+
+</br>
+<% let message="";
+if(datatable.length==0)
+{
+  message="No requests"; %>
+<h2 style="text-align: center;"><%= message %></h2>
+<% }
+else
+{
+  %>
+<table  class="table table-striped">
+    <thead>
+          <td>Email ID</td>
+          <td>Event Name</td>
+          <td> Budget Approval </td>
+          <td> Event Approval</td>
+      </thead>
+      <tbody>
+        <% for(var i=0; i < datatable.length; i++) { %>
+          <tr>
+            <td><p class="text"><%= datatable[i].Organizer %></p></td>
+                <td><p class="text"><%= datatable[i].Event_Name %></p></td>
+                <td>
+                    <form class="adoption_form" action="/viewrequest" method="POST">
+                    <input id="id" name="Event_Id" type="hidden"  class="form-control" value=<%= datatable[i].Event_Id %>>
+                    <input id="org" name="org" type="hidden"  class="form-control" value=<%= datatable[i].Organizer %>>
+                    <input id="eventname" name="eventname" type="hidden"  class="form-control" value=<%= datatable[i].Event_Name %>>
+                    <input id="eventdate" name="eventdate" type="hidden"  class="form-control" value=<%= datatable[i].Event_Date %>>
+                    <input id="venue" name="venue" type="hidden"  class="form-control" value=<%= datatable[i].Venue %>>
+                    <input id="stiming" name="stiming" type="hidden"  class="form-control" value=<%= datatable[i].Start_Time%>>
+                    <input required id="etiming" name="etiming" type="hidden"  class="form-control" value=<%= datatable[i].End_Time %>>
+                    <input id="fee" name="fee" type="hidden"  class="form-control" value=<%= datatable[i].Entry_Fee %>>
+                    <input id="request" name="request" type="hidden"  class="form-control" value=<%= datatable[i].Budget_Request %>>
+                    <input id="justification" name="justification" type="hidden"  class="form-control" value=<%= datatable[i].Budget_Justification %>>
+                    <input id="description" name="description" type="hidden"  class="form-control" value=<%= datatable[i].Description %>>
+                    <input type="text" id="matreq" name="matreq" type="hidden"  class="form-control" value=<%= datatable[i].Material_Requirement %>>
+                 <button type="submit" class="btn">Request Details</button>  
+                </form> 
+                </td>
+            <td>
+              <form class="adoption_form" action="/acceptpage" method="POST">
+                <div>
+                  <input type="hidden" name="Event_Id" class="form-control" id="Event_Id" aria-describedby="emailHelp" value=<%= datatable[i].Event_Id %>>
+                </div>
+                <div>
+                    <input type="hidden" name="Name" class="form-control" id="Name" aria-describedby="emailHelp" value=<%= datatable[i].Organizer %>>
+                  </div>
+                <div class="adoptdiv">
+                <button type="submit" class="btn btn-primary adoptbtn">Accept!</button>
+              </div>
+              </form> 
+
+
+              <form class="adoption_form" action="/rejectrequest" method="POST">
+                <div class="adoptdiv">
+                    <div>
+                        <input type="hidden" name="Event_Id" class="form-control" id="Event_Id" aria-describedby="emailHelp" value=<%= datatable[i].Event_Id %>>
+                      </div>
+                      <div>
+                          <input type="hidden" name="Name" class="form-control" id="Name" aria-describedby="emailHelp" value=<%= datatable[i].Organizer %>>
+                        </div>
+                <button type="submit" class="btn btn-primary adoptbtn">Reject</button>
+              </div>
+              </form> 
+          </td>
+          <% } %>
+          </tr>
+      </tbody>
+  </table>
+  <% } %>
+    
+    <%- include('partials/footer'); -%>

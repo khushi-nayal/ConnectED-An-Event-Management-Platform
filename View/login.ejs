@@ -1,0 +1,33 @@
+<%- include('partials/header'); -%>
+	<link rel="stylesheet" href="/stylesheet/login.css" />
+<%- include('partials/middle'); -%>
+<div class="box-form">
+	<div class="header">
+  		<img src="images/Group5.png" alt="logo" />
+  		<h1>CONNECTED</h1>
+  	</div>
+  	<div class="left">
+  		<img src="images/Illustration2.png" alt="img" />
+		<p>Welcome back!<br>
+		We missed you!</p>
+	</div>
+	<div class="vertical"></div>
+	<div class="right">
+		<h5>Login</h5>
+		<form action="/auth" method="POST">
+		<div class="inputs">
+			<input type="text" name="emailid" id="emailid" placeholder="Email Id">
+			<br>
+			<input type="password" name="password" id="password" placeholder="Password">
+		</div>
+            <br>
+			<br>
+			<br>
+			<button type="submit" class="submit_button">Sign in</button>
+			<br><br><br>
+			<p>Don’t have an account? <a href="/signup">Sign up</a></p>
+			</form>
+	</div>
+
+
+	<%- include('partials/footer'); -%>
