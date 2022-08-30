@@ -35,13 +35,13 @@ The prospective participants of the events (university faculty and students) can
 
 3. Purpose
 
-    ● Event management and approval systems in organizations like universities require a system that would digitize the entire process so as to reduce redundancy and         manual paperwork. Such software becomes especially necessary in a University setting where a huge number of events are organized simultaneously every year.
-    ● Where most event management platforms focus solely on creating a link between organizers and participants, our application focuses on bridging the gap between
+   1. Event management and approval systems in organizations like universities require a system that would digitize the entire process so as to reduce redundancy and         manual paperwork. Such software becomes especially necessary in a University setting where a huge number of events are organized simultaneously every year.
+   2. Where most event management platforms focus solely on creating a link between organizers and participants, our application focuses on bridging the gap between
       the University administration and the organizers.
-    ● Each University event requires a lot of prerequisites and permissions which need fast and efficient communication between the administration and organizers. At
+   3. Each University event requires a lot of prerequisites and permissions which need fast and efficient communication between the administration and organizers. At
       present, this process is tedious and messy with a massive influx of mails, requesting/negotiating/allowing the minutia of the event details. This can create
       overlaps, miscommunication, delays, and is overall, hard to keep track of.
-    ● The goal of our project is to build an application that would streamline and collate all the prerequisites imperative to the event in one place, thus making the       flow of event planning smoother from the back-end. The event organizers can file all the approval requests needed for their planned event and the administration       can approve or disapprove those requests depending upon their feasibility. These requests could be concerning the event venue booking, time slot allocation,           budget allocation, size, miscellaneous items required, etc., so as to accommodate events of all scales. In this way, our software reduces the redundancy of mails       and in-person meetings to a simple one-tap solution.
+   4. The goal of our project is to build an application that would streamline and collate all the prerequisites imperative to the event in one place, thus making the       flow of event planning smoother from the back-end. The event organizers can file all the approval requests needed for their planned event and the administration       can approve or disapprove those requests depending upon their feasibility. These requests could be concerning the event venue booking, time slot allocation,           budget allocation, size, miscellaneous items required, etc., so as to accommodate events of all scales. In this way, our software reduces the redundancy of mails       and in-person meetings to a simple one-tap solution.
 
 4. Scope
 
